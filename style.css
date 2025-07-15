@@ -22,7 +22,7 @@ h1, h2 {
 
 nav {
   margin-bottom: 20px;
-  background: #FFF;
+  background: #fff;
   padding: 10px;
   border-radius: 6px;
 }
@@ -33,7 +33,7 @@ nav a {
   font-weight: bold;
 }
 nav a:hover {
-  color: #51E3ED;
+  color: #fff;
 }
 
 ul, ol, dl {
