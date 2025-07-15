@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Failure - Riddle Game</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../../style.css">
+  <script>
+    function revealAnswer() {
+      document.getElementById('answer').style.display = 'block';
+    }
+  </script>
+</head>
+<body>
+  <nav>
+    <a href="../../index.html">Home</a> |
+    <a href="../../clue1/clue1.html">Clue 1</a> |
+    <a href="../../clue2/clue2.html">Clue 2</a> |
+    <a href="../../clue3/clue3.html">Clue 3</a> |
+    <a href="../submit.html">Submit Answer</a>
+  </nav>
+  <h1>Incorrect Answer</h1>
+  <h2>Try Again!</h2>
+  <p>Sorry, that's not the correct answer, try again!</p>
+  <button onclick="revealAnswer()">Reveal Answer</button>
+  <div id="answer" style="display:none; margin-top:10px;">
+    <p>The answer is "candle"</p>
+  </div>
+</body>
+</html>

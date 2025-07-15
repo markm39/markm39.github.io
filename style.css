@@ -1,0 +1,71 @@
+/*
+- Font: Courier New, Courier, monospace
+- Colors: #51B1ED, #5351ED, #5180ED, #51E3ED, #8751ED
+*/
+
+body {
+  /* background-color: #51B1ED; */
+  margin: 0;
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #222;
+}
+
+h1, h2 {
+  color: #000000;
+}
+
+.bold {
+  font-weight: bold;
+  color: #000000;
+}
+
+nav {
+  margin-bottom: 20px;
+  background: #5180ED;
+  padding: 10px;
+  border-radius: 6px;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 10px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #51E3ED;
+}
+
+ul, ol, dl {
+  margin-bottom: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.unique-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.clue1-bg {
+  background: #5351ED;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.invisible-clue {
+  color: #fff;
+  background: #fff;
+  user-select: text;
+}
+
+.decoy {
+  color: #fff;
+  font-style: italic;
+} 

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Answer - Riddle Game</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="../style.css">
+</head>
+<script>
+  function validateAnswer() {
+    const answer = document.getElementById("answer").value;
+    if (answer === "candle") {
+      window.location.href = "success/success.html";
+    } else {
+      window.location.href = "failure/failure.html"
+    }
+  }
+</script>
+<body>
+  <nav>
+    <a href="../index.html">Home</a> |
+    <a href="../clue1/clue1.html">Clue 1</a> |
+    <a href="../clue2/clue2.html">Clue 2</a> |
+    <a href="../clue3/clue3.html">Clue 3</a> |
+    <a href="submit.html">Submit Answer</a>
+  </nav>
+  <h1>Submit Your Answer</h1>
+  <h2>Think you solved the riddle?</h2>
+  <form onsubmit="validateAnswer(); return false;">
+    <label for="answer">Your Answer:</label>
+    <input type="text" id="answer" name="answer" required>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
